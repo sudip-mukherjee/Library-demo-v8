@@ -51,11 +51,11 @@ export class AppComponent implements OnInit {
   }
 
   navigate() {
-    const result = [16];
+    // const result = [16];
     this.router.navigate(['/discussion-forum'], {
       queryParams: {
-        categories: JSON.stringify({ result }),
-        userName: 'ntptest104'
+        categories: JSON.stringify({ result: [16] }),
+        userId: 7
       }
     });
   }
