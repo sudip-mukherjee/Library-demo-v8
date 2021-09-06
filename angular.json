@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "4dd11d3a-1b7b-4522-a3d3-a41c7ba7eca3"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -30,7 +33,8 @@
             ],
             "styles": [
               "src/styles.css",
-              "./node_modules/@project-sunbird/discussions-ui-v8/assets/styles/global.scss"
+              "./node_modules/@project-sunbird/discussions-ui-v8/assets/styles/global.scss",
+              "./node_modules/@project-sunbird/sb-themes/themes/themes-df.scss"
             ],
             "scripts": []
           },
