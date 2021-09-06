@@ -19,14 +19,16 @@
     "@angular/platform-browser": "~8.0.0",
     "@angular/platform-browser-dynamic": "~8.0.0",
     "@angular/router": "~8.0.0",
-    "@project-sunbird/client-services": "^3.7.3",
-    "@project-sunbird/discussions-ui-v8": "2.0.17",
+    "@project-sunbird/client-services": "4.2.3",
+    "@project-sunbird/discussions-ui-v8": "2.2.0-beta-8",
+    "@project-sunbird/sb-themes": "0.0.21",
+    "dayjs": "^1.8.26",
     "lodash-es": "^4.17.15",
     "ngx-chips": "^2.2.2",
+    "ngx-infinite-scroll": "^8.0.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
-    "zone.js": "~0.9.1",
-    "dayjs": "^1.8.26"
+    "zone.js": "~0.9.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.801.2",
